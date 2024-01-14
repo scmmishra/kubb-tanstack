@@ -1,10 +1,11 @@
 <script setup lang="ts">
-// import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
+import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
 </script>
 
 <template>
   <Suspense>
     <RouterView />
+    <VueQueryDevtools />
   </Suspense>
 </template>
 
