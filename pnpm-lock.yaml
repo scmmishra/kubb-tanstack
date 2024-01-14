@@ -26,6 +26,9 @@ dependencies:
   '@tanstack/vue-query':
     specifier: ^5.17.11
     version: 5.17.11(vue@3.4.13)
+  '@tanstack/vue-query-devtools':
+    specifier: ^5.17.11
+    version: 5.17.11(@tanstack/vue-query@5.17.11)(vue@3.4.13)
   vue:
     specifier: ^3.3.11
     version: 3.4.13(typescript@5.3.3)
@@ -763,6 +766,21 @@ packages:
 
   /@tanstack/query-core@5.17.10:
     resolution: {integrity: sha512-bJ2oQUDBftvHcEkLS3gyzzShSeZpJyzNNRu8oHK13iNdsofyaDXtNO/c1Zy/PZYVX+PhqOXwoT42gMiEMRSSfQ==}
+    dev: false
+
+  /@tanstack/query-devtools@5.17.7:
+    resolution: {integrity: sha512-TfgvOqza5K7Sk6slxqkRIvXlEJoUoPSsGGwpuYSrpqgSwLSSvPPpZhq7hv7hcY5IvRoTNGoq6+MT01C/jILqoQ==}
+    dev: false
+
+  /@tanstack/vue-query-devtools@5.17.11(@tanstack/vue-query@5.17.11)(vue@3.4.13):
+    resolution: {integrity: sha512-0fWv6Tzvt5Jfi2NgJ6qYxT//WP9zbBHm1ccG8eV9vpwuFCYgByqagi17pPUOwt7wS3tdUuZW4Yc/n4bT59ae3A==}
+    peerDependencies:
+      '@tanstack/vue-query': ^5.17.11
+      vue: ^3.3.0
+    dependencies:
+      '@tanstack/query-devtools': 5.17.7
+      '@tanstack/vue-query': 5.17.11(vue@3.4.13)
+      vue: 3.4.13(typescript@5.3.3)
     dev: false
 
   /@tanstack/vue-query@5.17.11(vue@3.4.13):
