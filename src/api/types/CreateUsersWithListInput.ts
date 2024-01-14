@@ -1,18 +1,18 @@
-import type { User } from "./User";
+import type { User } from './User'
 
 /**
  * @description successful operation
-*/
-export type CreateUsersWithListInputError = any | null;
+ */
+export type CreateUsersWithListInputError = any | null
 
- export type CreateUsersWithListInputMutationRequest = User[];
+export type CreateUsersWithListInputMutationRequest = User[]
 
- /**
+/**
  * @description Successful operation
-*/
-export type CreateUsersWithListInputMutationResponse = User;
+ */
+export type CreateUsersWithListInputMutationResponse = User
 export namespace CreateUsersWithListInputMutation {
-    export type Response = CreateUsersWithListInputMutationResponse;
-    export type Request = CreateUsersWithListInputMutationRequest;
-    export type Errors = CreateUsersWithListInputError;
+  export type Response = CreateUsersWithListInputMutationResponse
+  export type Request = CreateUsersWithListInputMutationRequest
+  export type Errors = CreateUsersWithListInputError
 }
