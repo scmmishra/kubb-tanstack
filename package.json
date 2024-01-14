@@ -21,6 +21,7 @@
     "@kubb/swagger-ts": "^2.3.0",
     "@tanstack/vue-query": "^5.17.11",
     "@tanstack/vue-query-devtools": "^5.17.11",
+    "axios": "^1.6.5",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },
