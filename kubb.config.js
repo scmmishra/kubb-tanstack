@@ -9,7 +9,7 @@ export default defineConfig({
     path: 'schema.json'
   },
   output: {
-    path: './models'
+    path: './src/api'
   },
   plugins: [
     createSwagger({ output: false }),
